@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+	<available>true</available>
+	<description>Email to Lead owner if Time of follow-up has been elapsed.</description>
+	<encodingKey>ISO-8859-1</encodingKey>
+	<name>Follow Up Time has Been Elapsed.</name>
+	<style>none</style>
+	<subject>Follow-up has been elapsed.</subject>
+	<type>text</type>
+</EmailTemplate>

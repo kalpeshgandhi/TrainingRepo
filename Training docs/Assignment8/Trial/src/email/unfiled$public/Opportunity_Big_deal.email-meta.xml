@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+	<available>true</available>
+	<description>Opportunity stage is in &apos;negotiation/review&apos;
+		stage, send an email to the opportunity owner indicating a big deal is
+		being created.</description>
+	<encodingKey>ISO-8859-1</encodingKey>
+	<name>Big Deal For Opportunity Is Created.</name>
+	<style>none</style>
+	<subject>Opportunity Big Deal.</subject>
+	<type>text</type>
+</EmailTemplate>

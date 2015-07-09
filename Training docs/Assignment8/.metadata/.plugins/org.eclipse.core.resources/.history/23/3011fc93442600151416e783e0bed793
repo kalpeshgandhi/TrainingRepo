@@ -1,0 +1,3 @@
+Hi {!Opportunity.OwnerFullName},
+A big deal of Amount {!Opportunity.Amount} is in {!Opportunity.StageName} Stage.
+Thank You.

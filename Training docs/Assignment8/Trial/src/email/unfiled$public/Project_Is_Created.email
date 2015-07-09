@@ -1,0 +1,7 @@
+Hi,
+{!Project_Details__c.Name} is created.
+Client Name:-{!Project_Details__c.Client__c}
+Status:{!Project_Details__c.Status__c}
+Start Date:{!Project_Details__c.Start_Date__c}
+End Date:{!Project_Details__c.End_Date__c}
+Thank You.

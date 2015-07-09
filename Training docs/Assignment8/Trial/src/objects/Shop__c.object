@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+	<actionOverrides>
+		<actionName>Accept</actionName>
+		<type>Default</type>
+	</actionOverrides>
+	<actionOverrides>
+		<actionName>CancelEdit</actionName>
+		<type>Default</type>
+	</actionOverrides>
+	<actionOverrides>
+		<actionName>Clone</actionName>
+		<type>Default</type>
+	</actionOverrides>
+	<actionOverrides>
+		<actionName>Delete</actionName>
+		<type>Default</type>
+	</actionOverrides>
+	<actionOverrides>
+		<actionName>Edit</actionName>
+		<type>Default</type>
+	</actionOverrides>
+	<actionOverrides>
+		<actionName>Follow</actionName>
+		<type>Default</type>
+	</actionOverrides>
+	<actionOverrides>
+		<actionName>List</actionName>
+		<type>Default</type>
+	</actionOverrides>
+	<actionOverrides>
+		<actionName>New</actionName>
+		<type>Default</type>
+	</actionOverrides>
+	<actionOverrides>
+		<actionName>SaveEdit</actionName>
+		<type>Default</type>
+	</actionOverrides>
+	<actionOverrides>
+		<actionName>Tab</actionName>
+		<type>Default</type>
+	</actionOverrides>
+	<actionOverrides>
+		<actionName>View</actionName>
+		<type>Default</type>
+	</actionOverrides>
+	<compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+	<deploymentStatus>Deployed</deploymentStatus>
+	<description>This is a Custom object name shop.</description>
+	<enableActivities>true</enableActivities>
+	<enableBulkApi>true</enableBulkApi>
+	<enableFeeds>false</enableFeeds>
+	<enableHistory>false</enableHistory>
+	<enableReports>true</enableReports>
+	<enableSharing>true</enableSharing>
+	<enableStreamingApi>true</enableStreamingApi>
+	<fields>
+		<fullName>Address__c</fullName>
+		<description>This is a Address of the Shopkeeper .</description>
+		<externalId>false</externalId>
+		<inlineHelpText>Please enter the Address.</inlineHelpText>
+		<label>Address</label>
+		<length>32768</length>
+		<trackTrending>false</trackTrending>
+		<type>LongTextArea</type>
+		<visibleLines>3</visibleLines>
+	</fields>
+	<fields>
+		<fullName>Total__c</fullName>
+		<description>This is the total No of Stocks of Shopkeeper.</description>
+		<externalId>false</externalId>
+		<inlineHelpText>Please Enter the Total Stocks.</inlineHelpText>
+		<label>Total Stocks</label>
+		<precision>18</precision>
+		<required>false</required>
+		<scale>0</scale>
+		<trackTrending>false</trackTrending>
+		<type>Number</type>
+		<unique>false</unique>
+	</fields>
+	<label>Shop</label>
+	<listViews>
+		<fullName>All</fullName>
+		<filterScope>Everything</filterScope>
+		<label>All</label>
+	</listViews>
+	<nameField>
+		<label>Shop Name</label>
+		<type>Text</type>
+	</nameField>
+	<pluralLabel>Shops</pluralLabel>
+	<searchLayouts />
+	<sharingModel>ReadWrite</sharingModel>
+</CustomObject>

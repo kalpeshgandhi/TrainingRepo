@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email notification to remind the Project Manager about the end date of the project 5 days prior.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email Notification To Project Manager 5 Days Prior to End date.</name>
+    <style>none</style>
+    <subject>End Date Notification</subject>
+    <type>text</type>
+</EmailTemplate>
